@@ -27,14 +27,13 @@ public class HibernateConfig {
         sf.setPackagesToScan("dto");
         return sf;
     }
-
     @Bean
     public DataSource dataSource(){
         DriverManagerDataSource dataSource=new DriverManagerDataSource();
         dataSource.setDriverClassName(env.getProperty("jdbc.driverClassName"));
-        dataSource.setDriverClassName(env.getProperty("jdbc.url"));
-        dataSource.setDriverClassName(env.getProperty("jdbc.user"));
-        dataSource.setDriverClassName(env.getProperty("jdbc.pass"));
+        dataSource.setUrl(env.getProperty("jdbc.url"));
+        dataSource.setUsername(env.getProperty("jdbc.user"));
+        dataSource.setPassword(env.getProperty("jdbc.password"));
         return dataSource;
     }
 
