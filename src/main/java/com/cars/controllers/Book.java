@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@Repository@RequestMapping("/")
+@Repository@RequestMapping("/book")
 public class Book {
-    @RequestMapping(value = "/book", method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public String book(){
         return "book";
     }

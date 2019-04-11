@@ -1258,7 +1258,13 @@
       <DataType>tinytext|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="302" parent="236" name="PRIMARY">
+    <column id="302" parent="236" name="mechanic_id">
+      <Position>7</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="303" parent="236" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>mech_id</ColNames>
       <Primary>1</Primary>

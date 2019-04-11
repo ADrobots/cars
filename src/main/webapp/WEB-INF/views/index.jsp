@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html; charset=UTF-8" %>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,13 +23,13 @@
                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="cars">Cars <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/cars/">Cars <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="mechanics">Mechanics <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/mechanics/">Mechanics <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="book">Book <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/book/">Book <span class="sr-only">(current)</span></a>
                 </li>
 
             </ul>
@@ -46,21 +46,21 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="4000">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="../images/background/1.jpg" alt="First slide">
+                <img class="d-block w-100" src="/resources/images/background/1.jpg" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 style="color:gold; font-size:15px;">ЛУЧШИЕ СПЕЦИАЛИСТЫ</h5>
                     <p style="color:gold;">!!!</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../images/background/2.jpg" alt="Second slide">
+                <img class="d-block w-100" src="/resources/images/background/2.jpg" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 style="color:gold; font-size:15px;">ДОСТУПНЫЕ ЦЕНЫ</h5>
                     <p style="color:gold;">!!!</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../images/background/3.jpg" alt="Third slide">
+                <img class="d-block w-100" src="/resources/images/background/3.jpg" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 style="color:gold; font-size:15px;">КРУГЛОСУТОЧНО</h5>
                     <p style="color:gold;">!!!</p>

@@ -1,11 +1,8 @@
 package com.cars.dao;
 
 import com.cars.dto.Mechanic;
-import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import javax.transaction.Transactional;
@@ -21,7 +18,7 @@ public class MechanicDao  implements  MecDao{
 
 
        List<Mechanic> list=sessionFactory.getCurrentSession().createCriteria(Mechanic.class).list();
-
+        System.out.print(""+list.toString());
        return list;
     }
 }

@@ -4,6 +4,7 @@ com\cars\controllers\Mechanics.class
 com\cars\controllers\Cars.class
 com\cars\dao\MecDao.class
 com\cars\dao\MechanicDao.class
+com\cars\service\MechanicServiceImpl.class
 com\cars\config\AppConfig.class
 com\cars\controllers\Book.class
 com\cars\dto\Car.class
@@ -11,3 +12,4 @@ com\cars\controllers\Index.class
 com\cars\config\WebInit.class
 com\cars\controllers\Test.class
 com\cars\config\HibernateConfig.class
+com\cars\service\MechanicService.class
