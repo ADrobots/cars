@@ -2,7 +2,7 @@
 <dataSource name="car_service@localhost">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.15">
     <root id="1">
-      <ServerVersion>5.6.42</ServerVersion>
+      <ServerVersion>5.6.43</ServerVersion>
       <DefaultEngine>InnoDB</DefaultEngine>
       <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
       <DefaultCasing>lower/lower</DefaultCasing>
@@ -1258,13 +1258,7 @@
       <DataType>tinytext|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="302" parent="236" name="mechanic_id">
-      <Position>7</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="303" parent="236" name="PRIMARY">
+    <key id="302" parent="236" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>mech_id</ColNames>
       <Primary>1</Primary>

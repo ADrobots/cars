@@ -8,8 +8,8 @@ public class Mechanic {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "mechanic_id")
-    private Integer mechanicId;
+    @Column(name = "mech_id")
+    private Integer mechId;
 
     @Column(name = "first_name")
     private String firstName;
@@ -26,12 +26,12 @@ public class Mechanic {
     @Column(name = "photo_path")
     private String photoPath;
 
-    public Integer getMechanicId() {
-        return mechanicId;
+    public Integer getMechId() {
+        return mechId;
     }
 
-    public void setMechanicId(Integer mechanicId) {
-        this.mechanicId = mechanicId;
+    public void setMechId(Integer mechId) {
+        this.mechId = mechId;
     }
 
     public String getFirstName() {

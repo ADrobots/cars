@@ -18,7 +18,6 @@ public class MechanicDao  implements  MecDao{
 
 
        List<Mechanic> list=sessionFactory.getCurrentSession().createCriteria(Mechanic.class).list();
-        System.out.print(""+list.toString());
        return list;
     }
 }
