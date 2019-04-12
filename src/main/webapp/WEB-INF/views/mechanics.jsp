@@ -44,7 +44,7 @@
 
 
 </body>
-<div class="card-group">
+<div class="card-columns" style="column-count: 4;">
 <div id="mechanic_container"></div>
 </div>
 <script src="/resources/js/mech.js"></script>
